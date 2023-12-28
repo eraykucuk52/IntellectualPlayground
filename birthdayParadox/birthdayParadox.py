@@ -4,7 +4,7 @@ More info at https://en.wikipedia.org/wiki/Birthday_problem
 View this code at https://github.com/eraykucuk52
 Tags: short, math, simulation"""
 
-import datetime, random
+import datetime, random, time, sys
 
 
 def getBirthdays(numberOfBirthdays):
@@ -88,15 +88,31 @@ print()
 print("Generating", numBDays, "random birthdays 100,000 times...")
 input("Press Enter to begin...")
 
+RED = '\033[91m'
+GREEN = '\033[92m'
+ENDC = '\033[0m'
+
 print("Let's run another 100,000 simulations.")
 simMatch = 0 # How many simulations had matching birthdays in them.
-for i in range(100_000):
+total_simulations = 100_000
+report_every = 10_000
+for i in range(total_simulations):
     # Report on the progress ecery 10,000 simulations:
-    if i % 10_000 == 0:
-        print(i, "simulations run...")
+    if i % report_every == 0:
+        # Calculate how much completed as a percentage
+        percent_complete = int((i / total_simulations) * 100)
+        # Create the loading bar
+        progress_bar = '[' + (GREEN + '=' * (percent_complete // 2) + ENDC) + (' ' * (50 - (percent_complete // 2))) + ']'
+        # Print loading bar and percentage (percentage in red)
+        sys.stdout.write(f"\r{progress_bar} {RED}{percent_complete}%{ENDC} completed")
+        sys.stdout.flush()
     birthdays = getBirthdays(numBDays)
     if getMatch(birthdays) != None:
         simMatch = simMatch + 1
+
+# Complete the loading bar when the simulation is finished
+sys.stdout.write(f"\r{'[' + GREEN + '=' * 50 + ENDC + ']'} 100% completed\n")
+sys.stdout.flush()
 print("100,000 simulations run.")
 
 # Display simulation results:
