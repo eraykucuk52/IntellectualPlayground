@@ -17,7 +17,7 @@ Bagels is a fun and challenging number puzzle game, the first in our Intellectua
 - The goal is to guess the number in the fewest tries possible.
 
 ### Game Screenshot
-![Bagels Game Screenshot](https://github.com/eraykucuk52/IntellectualPlayground/blob/main/image.png)
+![Bagels Game Screenshot](https://github.com/eraykucuk52/IntellectualPlayground/blob/main/bagels/sc_bagels.png?raw=true)
 
 ## Installation and Running the Game
 To play Bagels, follow these steps:
@@ -47,7 +47,7 @@ To run the Birthday Paradox simulation:
 4. Run the script using Python.
 
 ### Program Screenshot
-![Birthday Paradox Screenshot]("C:\Users\kucuk\Desktop\IntellectualPlayground\birthdayParadox\sc_of_program_running.png")
+![Birthday Paradox Screenshot](https://github.com/eraykucuk52/IntellectualPlayground/blob/main/birthdayParadox/sc_of_program_running.png?raw=true)
 
 ## Installation and Running the Program
 To install and run the program, follow these steps:
