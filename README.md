@@ -4,6 +4,7 @@
 2. [Birthday Paradox](#2birthday-paradox)
 
 ## 1.Bagels 
+![Bagels](https://github.com/eraykucuk52/IntellectualPlayground/blob/main/bagels/bagels.png?raw=true)
 
 ### About Bagels
 Bagels is a fun and challenging number puzzle game, the first in our IntellectualPlayground series. In this game, players attempt to guess a secret number based on feedback from their guesses.
@@ -32,6 +33,7 @@ Stay tuned for more games in the IntellectualPlayground series. Each game will c
 Contributions are welcome. If you have ideas for new games or improvements, feel free to fork the repository and submit a pull request.
 
 ## 2.Birthday Paradox
+![Birthday Paradox](https://github.com/eraykucuk52/IntellectualPlayground/blob/main/birthdayParadox/birthdayParadox.jpg?raw=true)
 This repository contains a Python program that simulates the Birthday Paradox. The Birthday Paradox explores the counterintuitive probability that, in a set of randomly chosen people, some pair of them will have the same birthday.
 
 ### About Birthday Paradox
