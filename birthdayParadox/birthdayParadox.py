@@ -1,3 +1,4 @@
+
 """Birthday Paradox Simulation, by Al Sweigart
 Explore the surprising probabilities of the "Birthday Paradox".
 More info at https://en.wikipedia.org/wiki/Birthday_problem
@@ -62,12 +63,19 @@ print()
 print("Here are", numBDays, "birthdays:")
 birthdays = getBirthdays(numBDays)
 for i, birthday in enumerate(birthdays):
-    if i != 0:
-        # Display a comma for each birthday after the first birthday.
-        print(", ", end="")
-    monthName = MONTHS[birthday.month - 1]
-    dateText = "{} {}".format(monthName, birthday.day)
-    print(dateText, end="")
+    months = MONTHS[birthday.month -1]
+    dateText1 = "| {} {}, ".format(months, birthday.day)
+    dateText2 = "| {} 0{}, ".format(months, birthday.day)
+    if (i+1) % 7==0:
+        if birthday.day < 10:
+            print(dateText2)
+        else:
+            print(dateText1)
+    else:
+        if birthday.day < 10:
+            print(dateText2, end="")
+        else:
+            print(dateText1, end="")
 print()
 print()
 
