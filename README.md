@@ -66,7 +66,7 @@ The simulation will output the probability of two individuals sharing a birthday
 
 ## 3.Bitmap Message 
 
-### About Bagels
+### About Bitmap Message
 This program uses a multiline string as a bitmap, a 2D image with only two 
 possible colors for each pixel, to determine how it should display a message 
 from the user. In this bitmap, space characters represent an empty space, and 
@@ -76,10 +76,10 @@ you’d like. The binary simplicity of the space-ormessage-characters system
 makes it good for beginners. Try experimenting with different messages to see 
 what the results look like!
 
-### Game Screenshot
+### Screenshot
 ![Bitmap Massage Screenshot](https://github.com/eraykucuk52/IntellectualPlayground/blob/main/bitmapMessage/bitmapMessage.png?raw=true)
 
-## Installation and Running the Game
+## Installation and Running the Program
 To play Bagels, follow these steps:
 1. Clone the repository: `git clone https://github.com/eraykucuk52/IntellectualPlayground.git`
 2. Navigate to the Bagels directory: `cd IntellectualPlayground/bagels`
