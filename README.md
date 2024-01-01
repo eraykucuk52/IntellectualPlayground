@@ -1,9 +1,10 @@
 # IntellectualPlayground
 ## Introduction
-1. [Bagels](#1bagels)
-2. [Birthday Paradox](#2birthdayParadox)
-3. [Bitmap Message](#3bitmapMessage)
+1. [Bagels](#bagels)
+2. [Birthday Paradox](#birthdayParadox)
+3. [Bitmap Message](#bitmapMessage)
 
+<a id="bagels"></a>
 ## 1.Bagels 
 ![Bagels](https://github.com/eraykucuk52/IntellectualPlayground/blob/main/bagels/bagels.png?raw=true)
 
@@ -33,6 +34,7 @@ Stay tuned for more games in the IntellectualPlayground series. Each game will c
 ### Contributions
 Contributions are welcome. If you have ideas for new games or improvements, feel free to fork the repository and submit a pull request.
 
+<a id="birthdayParadox"></a>
 ## 2.Birthday Paradox
 ![Birthday Paradox](https://github.com/eraykucuk52/IntellectualPlayground/blob/main/birthdayParadox/birthdayParadox.jpg?raw=true)
 This repository contains a Python program that simulates the Birthday Paradox. The Birthday Paradox explores the counterintuitive probability that, in a set of randomly chosen people, some pair of them will have the same birthday.
@@ -64,6 +66,7 @@ python birthday_paradox.py
 
 The simulation will output the probability of two individuals sharing a birthday in a specified number of random people.
 
+<a id="bitmapMessage"></a>
 ## 3.Bitmap Message 
 
 ### About Bitmap Message
@@ -82,5 +85,5 @@ what the results look like!
 ## Installation and Running the Program
 To play Bagels, follow these steps:
 1. Clone the repository: `git clone https://github.com/eraykucuk52/IntellectualPlayground.git`
-2. Navigate to the Bagels directory: `cd IntellectualPlayground/bagels`
+2. Navigate to the Bagels directory: `cd IntellectualPlayground/bitmapMessage`
 3. Run the game: `python bitmapMessage.py`
