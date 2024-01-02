@@ -3,7 +3,7 @@
 1. [Bagels](#bagels)
 2. [Birthday Paradox](#birthdayParadox)
 3. [Bitmap Message](#bitmapMessage)
-4. [Blackjack](#balckjack)
+4. [Blackjack](#blackjack)
 
 <a id="bagels"></a>
 ## 1.Bagels 
