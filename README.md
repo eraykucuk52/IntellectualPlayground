@@ -3,6 +3,7 @@
 1. [Bagels](#bagels)
 2. [Birthday Paradox](#birthdayParadox)
 3. [Bitmap Message](#bitmapMessage)
+4. [Blackjack](#balckjack)
 
 <a id="bagels"></a>
 ## 1.Bagels 
@@ -87,3 +88,7 @@ To play Bagels, follow these steps:
 1. Clone the repository: `git clone https://github.com/eraykucuk52/IntellectualPlayground.git`
 2. Navigate to the Bagels directory: `cd IntellectualPlayground/bitmapMessage`
 3. Run the game: `python bitmapMessage.py`
+
+<a id="blackjack"></a>
+## 4.Blackjack
+## WAINTING FOR BLACKJACK GAME
